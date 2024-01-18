@@ -20,7 +20,7 @@ Counter >> count [
 	^ count
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 Counter >> count: c [
 	count := c
 ]
@@ -30,7 +30,7 @@ Counter >> decrement [
     count := count - 1
 ]
 
-{ #category : #accessing }
+{ #category : #API }
 Counter >> increment [
     count := count + 1
 ]
